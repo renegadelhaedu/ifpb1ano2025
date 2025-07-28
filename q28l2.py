@@ -1,3 +1,5 @@
+# github.com/renegadelhaedu/ifpb1ano2025
+
 tipo = input('qual o tipo de carne').lower()
 qtde = float(input('qual a quantidade de carne'))
 pag = input('voce vai pagar usando cartao tabajara?')
