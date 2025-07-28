@@ -2,3 +2,10 @@
 #da turma e pare somente quando for digitado o nome "jeyssa".
 #ao ser digitado o nome da colega, o algoritmo deve mostrar na tela
 # a seguinte mensagem: por favor, ensine allan a ser mais calmo.
+
+nome = input('qual seu nome')
+
+while nome != 'jeyssa':
+    nome = input('qual seu nome')
+
+print('ensine Allan a parar de ficar nervoso no domino')
