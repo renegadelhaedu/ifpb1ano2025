@@ -13,5 +13,5 @@ while salario <= 0:
     salario = float(input('digite seu salario'))
 
 civ = input('digite seu estado civil')
-while civ != 's' or civ != 'c' or :
+while civ != 's' and civ != 'c' and civ != 'd' and civ != 'v':
     civ = input('digite seu estado civil novamente')
