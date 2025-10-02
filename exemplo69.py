@@ -13,13 +13,14 @@ freq = float(input('digite a frequencia de sua voz'))
 
 while freq >= 0:
     talentos.append(freq)
+    if freq <=20 or freq >= 807:
+        break
     freq = float(input('digite a frequencia de sua voz'))
 
 menor = 9999
 maior = 0
 soma = 0
 for f in talentos:
-
     if f > maior:
         maior = f
 
