@@ -5,7 +5,6 @@ o programa deve ir lendo enquanto nao for digitada nenhum frequenci
 negativa.
 ao final, mostre a maior, a menor e a média das frequencias
 contidas na lista.
-
 '''
 
 talentos = []
@@ -34,6 +33,9 @@ media = soma / len(talentos)
 print(menor)
 print(maior)
 print(media)
+
+print(talentos[1])
+print(talentos[2])
 
 
 
